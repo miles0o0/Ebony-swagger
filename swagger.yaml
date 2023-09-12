@@ -27,7 +27,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev:
+  /developers:
     get:
       tags:
         - Developer
@@ -130,7 +130,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev/234567/houseType:
+  /developers/234567/houseType:
     get:
       tags:
         - BOM
@@ -140,7 +140,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev/234567/bom/234567:
+  /developers/234567/bom/234567:
     get:
       tags:
         - BOM
@@ -263,7 +263,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev/12345/site:
+  /developers/12345/sites:
     get:
       tags:
         - Order
@@ -273,7 +273,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev/12345/site/23455:
+  /developers/12345/sites/23455:
     get:
       tags:
         - Order
@@ -283,7 +283,7 @@ paths:
       responses:
         '200':
           description: ''
-  /dev/12345/site/23455/plot/54345:
+  /developers/12345/sites/23455/plots/54345:
     get:
       tags:
         - Order
